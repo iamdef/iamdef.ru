@@ -1,0 +1,174 @@
+/* ============== Adaptive ============== */
+
+/* Medium Devices / Desktops */
+@media only screen and (max-width: 992px) {
+    #navbar {
+        font-size: 4vw;
+    }
+
+    #about, #project-section-header {
+        font-size: 5vw;
+    }
+
+    #photo {
+        width: 30vw;
+    }
+
+    .project-tile img {
+        width: 80%;
+        padding: 0 10%;
+    }
+
+    .project-title {
+        font-size: 3.25vw;
+    }
+
+    #contact {
+        font-size: 5vw;
+        padding-bottom: 5vw;
+  }
+
+    #author {
+    font-size: 2vw;
+}
+
+    #author span {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+}
+
+}
+   
+
+/* Small Devices / Tablets */
+@media only screen and (max-width: 768px) {
+    header {
+        justify-content: center;
+    }
+
+
+    #navbar {
+        font-size: 5vw;
+        margin-right: 0;
+    }
+
+    #welcome-container {
+        flex-direction: column-reverse;
+    }
+
+    #about, #project-section-header {
+        font-size: 7vw;
+    }
+
+    #photo {
+        width: 35vw;
+        margin-left: 0;
+        margin-top: 10vw;
+    }
+
+    #tile-container {
+        flex-direction: column;
+    }
+
+    .project-tile {
+        width: 90%;
+    }
+
+    .project-tile img {
+        width: 100%;
+    }
+
+    .project-title {
+        font-size: 5vw;
+    }
+
+    #contact {
+        font-size: 7vw;
+  }
+
+    #author {
+        font-size: 2vw;
+    }
+
+}
+
+
+/* Extra Small Devices / Phones */
+@media only screen and (max-device-width: 480px) {
+    header {
+        justify-content: center;
+    }
+
+
+    #navbar {
+        font-size: 8vw;
+        margin-right: 0;
+    }
+
+    .scroll-shevron {
+        font-size: 5vw;
+    }
+
+    #welcome-container {
+        flex-direction: column-reverse;
+    }
+
+    #about {
+        font-size: 10vw;
+    }
+
+    #project-section-header {
+        height: 5%;
+        font-size: 10vw;
+        margin-top: 5vw;
+    }
+
+    #photo {
+        width: 60vw;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+
+    #tile-container {
+        flex-direction: column;
+    }
+
+    .project-tile {
+        width: 90%;
+    }
+
+    .project-tile img {
+        width: 100%;
+    }
+
+    .project-title {
+        font-size: 8vw;
+        
+    }
+
+    #contact {
+        font-size: 12vw;
+        padding-bottom: 10vw;
+  }
+
+    #contact-icons i {
+        font-size: 15vw;
+    }
+
+    #author {
+        font-size: 5vw;
+    }
+
+    #author span {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+}
